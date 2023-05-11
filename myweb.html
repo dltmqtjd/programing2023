@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>메뉴가 2개인 웹페이지</title>
+	<style>
+		/* 네이버 메뉴 스타일 */
+		#nav {
+			background-color: #1ec800;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+			position: fixed;
+			width: 100%;
+			z-index: 9999;
+		}
+		#nav a {
+			color: #fff;
+			text-decoration: none;
+			margin: 0 20px;
+		}
+		#nav a:hover {
+			color: #000;
+		}
+
+		/* 두번째 메뉴 스타일 */
+		#menu2 {
+			background-color: #f1f1f1;
+			color: #333;
+			padding: 10px;
+			text-align: center;
+			margin-top: 60px;
+		}
+		#menu2 a {
+			color: #333;
+			text-decoration: none;
+			margin: 0 20px;
+		}
+		#menu2 a:hover {
+			color: #1ec800;
+		}
+	</style>
+</head>
+<body>
+	<!-- 네이버 메뉴 -->
+	<div id="nav">
+		<a href="https://www.naver.com">네이버</a>
+		<a href="#">네이버 메뉴2</a>
+		<a href="#">네이버 메뉴3</a>
+	</div>
+
+	<!-- 두번째 메뉴 -->
+	<div id="menu2">
+		<h2>두번째 메뉴</h2>
+		<ul>
+			<li><a href="#">메뉴2-1</a></li>
+			<li><a href="#">메뉴2-2</a></li>
+			<li><a href="#">메뉴2-3</a></li>
+		</ul>
+	</div>
+</body>
+</html>
